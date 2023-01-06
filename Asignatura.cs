@@ -10,6 +10,6 @@ namespace ProyectoEstudiantes
 	{
 		string Codigo { get; set; }
 		string Nombre { get; set; }
-		string Creditos { get; set; }
+		int Creditos { get; set; }
 	}
 }

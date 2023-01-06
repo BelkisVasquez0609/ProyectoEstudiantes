@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoEstudiantes
 {
-	class Estudiante
+	class Estudiante : Persona
 	{
 		public string Cedula;
 		public List<Asignatura> Asignaturas { get; set; }

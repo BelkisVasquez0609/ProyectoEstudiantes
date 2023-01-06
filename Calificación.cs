@@ -8,5 +8,6 @@ namespace ProyectoEstudiantes
 {
 	class Calificacion
 	{
+
 	}
 }

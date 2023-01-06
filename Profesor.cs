@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace ProyectoEstudiantes
 {
-    public class Profesor
+    public class Profesor : Persona
     {
-        int Cedula { get; set; }
 
-        
+        List<Asignatura> Asignatura { get; set; }
+        string AreaAcademica { get; set; }
 
-        
+        public Profesor CrearProfesor(string cedula, string nombres, string apellidos, int edad, Asignatura asignaturas, string areaAcademica)
+        {
+            Cedula = cedula;
+            Nombres = nombres;
+            Apellidos = apellidos;
+            Edad = edad;
+            Asignatura.Add(asignaturas);
+            AreaAcademica = areaAcademica;
+            return this;
+        }
+
     }
+
 }

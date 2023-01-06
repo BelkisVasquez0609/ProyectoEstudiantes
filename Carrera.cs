@@ -8,8 +8,8 @@ namespace ProyectoEstudiantes
 {
     internal class Carrera
     {
-        int idCarrera { get; set; }
-        string nombreCarrera { get; set; }
+        public int IdCarrera { get; set; }
+        string NombreCarrera { get; set; }
         int MaxCredito { get; set; }
     }
 }

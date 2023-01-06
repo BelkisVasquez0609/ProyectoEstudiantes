@@ -8,9 +8,9 @@ namespace ProyectoEstudiantes
 {
     public class Persona
     {
-        int Cedula { get; set; }
-        string Nombres { get; set; }
-        string Apellidos { get; set; }
-        int Edad { get; set; }
+        public string Cedula { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public int Edad { get; set; }
     }
 }
