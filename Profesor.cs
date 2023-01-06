@@ -9,7 +9,7 @@ namespace ProyectoEstudiantes
     public class Profesor : Persona
     {
 
-        List<Asignatura> Asignatura { get; set; }
+        List<Asignatura> Asignatura =  new List<Asignatura>();
         string AreaAcademica { get; set; }
 
         public Profesor CrearProfesor(string cedula, string nombres, string apellidos, int edad, Asignatura asignaturas, string areaAcademica)
