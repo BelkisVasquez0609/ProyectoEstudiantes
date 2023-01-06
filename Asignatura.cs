@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoEstudiantes
 {
-    public class Profesor
-    {
-        int Cedula { get; set; }
-
-        
-
-        
-    }
+	class Asignatura
+	{
+		public string Codigo;
+		public string nombre;
+		public string creditos;
+	}
 }
