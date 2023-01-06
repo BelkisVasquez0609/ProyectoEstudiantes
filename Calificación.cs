@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoEstudiantes
 {
-	public class Asignatura
+	class Calificacion
 	{
-		string Codigo { get; set; }
-		string Nombre { get; set; }
-		string Creditos { get; set; }
 	}
 }
